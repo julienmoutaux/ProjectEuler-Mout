@@ -1,0 +1,26 @@
+﻿<Window x:Class="ProjectEuler.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Exo1" Height="23" HorizontalAlignment="Left" Name="Exo1" VerticalAlignment="Top" Width="75" Click="Exo1_Click" />
+        <Button Content="Exo2" Height="23" HorizontalAlignment="Left" Margin="0,29,0,0" Name="Exo2" VerticalAlignment="Top" Width="75" Click="Exo2_Click" />
+        <Button Content="Exo4" Height="23" HorizontalAlignment="Left" Margin="0,58,0,0" Name="Exo4" VerticalAlignment="Top" Width="75" Click="Exo4_Click" />
+        <Button Content="Exo5" Height="23" HorizontalAlignment="Left" Margin="0,87,0,0" Name="Exo5" VerticalAlignment="Top" Width="75" Click="Exo5_Click" />
+        <Button Content="Exo6" Height="23" HorizontalAlignment="Left" Margin="0,116,0,0" Name="Exo6" VerticalAlignment="Top" Width="75" Click="Exo6_Click" />
+        <Button Content="Exo7" Height="23" HorizontalAlignment="Left" Margin="0,145,0,0" Name="Exo7" VerticalAlignment="Top" Width="75" Click="Exo7_Click" />
+        <Button Content="Exo8" Height="23" HorizontalAlignment="Left" Margin="0,174,0,0" Name="Exo8" VerticalAlignment="Top" Width="75" Click="Exo8_Click" />
+        <Button Content="Exo10" Height="23" HorizontalAlignment="Left" Margin="0,203,0,0" Name="Exo10" VerticalAlignment="Top" Width="75" Click="Exo10_Click" />
+        <Button Content="Exo9" Height="23" HorizontalAlignment="Left" Margin="0,232,0,0" Name="Exo9" VerticalAlignment="Top" Width="75" Click="Exo9_Click" />
+        <Button Content="Exo12" Height="23" HorizontalAlignment="Left" Margin="0,261,0,0" Name="Exo12" VerticalAlignment="Top" Width="75" Click="Exo12_Click" />
+        <Button Content="Exo14" Height="23" HorizontalAlignment="Left" Margin="0,290,0,0" Name="Exo14" VerticalAlignment="Top" Width="75" Click="Exo14_Click" />
+        <Button Content="Exo11" Height="23" HorizontalAlignment="Left" Margin="81,0,0,0" Name="Exo11" VerticalAlignment="Top" Width="75" Click="Exo11_Click" />
+        <Button Content="Exo15" Height="23" HorizontalAlignment="Left" Margin="81,29,0,0" Name="Exo15" VerticalAlignment="Top" Width="75" Click="Exo15_Click" />
+        <Button Content="Exo13" Height="23" HorizontalAlignment="Left" Margin="81,58,0,0" Name="Exo13" VerticalAlignment="Top" Width="75" Click="Exo13_Click" />
+        <Button Content="Exo16" Height="23" HorizontalAlignment="Left" Margin="81,87,0,0" Name="Exo16" VerticalAlignment="Top" Width="75" Click="Exo16_Click" />
+        <Button Content="Exo20" Height="23" HorizontalAlignment="Left" Margin="81,116,0,0" Name="Exo20" VerticalAlignment="Top" Width="75" Click="Exo20_Click" />
+        <Button Content="Exo18" Height="23" HorizontalAlignment="Left" Margin="81,145,0,0" Name="Exo18" VerticalAlignment="Top" Width="75" Click="Exo18_Click" />
+        <Button Content="Exo19" Height="23" HorizontalAlignment="Left" Margin="81,174,0,0" Name="Exo19" VerticalAlignment="Top" Width="75" Click="Exo19_Click" />
+        <Button Content="Exo67" Height="23" HorizontalAlignment="Left" Margin="81,203,0,0" Name="Exo67" VerticalAlignment="Top" Width="75" Click="Exo67_Click" />
+    </Grid>
+</Window>
