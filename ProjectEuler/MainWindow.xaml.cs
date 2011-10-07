@@ -114,6 +114,11 @@ namespace ProjectEuler
             MessageBox.Show(Problem19.Solve().ToString());
         }
 
+        private void Exo17_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(Problem17.Solve().ToString());
+        }
+
         private void Exo67_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(Problem67.Solve().ToString());

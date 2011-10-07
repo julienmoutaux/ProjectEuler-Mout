@@ -544,27 +544,14 @@ namespace ProjectEuler
         }*/
     }    
 
-    //class Problem15 : Faire un arbre de décision.
     class Problem15
     {
-        static int size = 2;
-
+       
+        /* FAIT SOUS EXCEL ^_^ en fait il faut faire la premiere ligne et colonne de 1, puis pour les lignes et les colonnes suivante faire calculer la somme de la ligne et de la colonne precedente  ^_^ */
         public static int Solve()
         {
             return 0;
-            //return getNumberOfRoad(0, 0);
-        }
-
-        /*public static void getNumberOfRoad(int x, int y, ref int tot)
-        {
-            if (x == size && y == size)
-                return 1;
-            while (x != size)
-                getNumberOfRoad(++x, y);
-            if (y!= size)
-                return 1 + getNumberOfRoad(x , y+1);
-            return 0; //doit pas arriver
-        }*/
+        }       
     }
 
     class Problem16
@@ -612,7 +599,7 @@ namespace ProjectEuler
             }
             return result;
         }
-    }
+    }     
 
     class Problem20
     {
@@ -745,6 +732,50 @@ namespace ProjectEuler
             return year % 4 == 0;
         }
 
+    }
+
+    class Problem17
+    {
+        static String[] unites = new String[]{"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"};
+        static String[] dizaines = new String[] { "one", "ten", "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety" };
+       
+
+        public static long Solve()
+        {
+            int nb = 0;
+            for (int i = 1; i < 6;i++ )
+            {
+                nb += BuildName(i).Length;
+            }
+            string millier = "onethousand";
+            nb += millier.Length;
+            return nb;
+        }
+
+        static string BuildName(int i)
+        {
+            string toto = string.Empty;
+
+            int cent = i / 100;
+            if (cent > 0)
+                toto += string.Format("{0}hundred",unites[cent]);
+            i -= cent*100;
+            if (i == 0)
+                return toto;
+            if (toto != string.Empty)
+                toto += "and";
+            int dix = i / 10;
+            if (dix > 1)
+            {
+                toto += dizaines[dix];
+                i -= dix * 10;
+            }            
+            if (i == 0)
+                return toto;
+            toto += unites[i];
+
+            return toto;
+        }
     }
 
     class Problem67

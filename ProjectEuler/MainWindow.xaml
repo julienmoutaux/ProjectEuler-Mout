@@ -22,5 +22,6 @@
         <Button Content="Exo18" Height="23" HorizontalAlignment="Left" Margin="81,145,0,0" Name="Exo18" VerticalAlignment="Top" Width="75" Click="Exo18_Click" />
         <Button Content="Exo19" Height="23" HorizontalAlignment="Left" Margin="81,174,0,0" Name="Exo19" VerticalAlignment="Top" Width="75" Click="Exo19_Click" />
         <Button Content="Exo67" Height="23" HorizontalAlignment="Left" Margin="81,203,0,0" Name="Exo67" VerticalAlignment="Top" Width="75" Click="Exo67_Click" />
+        <Button Content="Exo17" Height="23" HorizontalAlignment="Left" Margin="81,203,0,0" Name="Exo17" VerticalAlignment="Top" Width="75" Click="Exo17_Click" />
     </Grid>
 </Window>
